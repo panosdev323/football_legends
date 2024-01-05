@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Legends</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row pt-4">
+            <h1 class="text-center text-success">Football Legends</h1>
+        </div>
+        <div class="row pt-4 pb-3">
+            <div id="stats" class="col-12">
+                <aside class="asideSe">
+                    <div class="asideDiv">
+                        <article id="firstarticle">
+                            <label for="selectC">Select Country</label>
+                            <select id="selectC" class="form-select" aria-label="select country">
+                                <option value="select" selected disabled>Select Country</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Brazil">Brazil</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Italy">Italy</option>
+                            </select>
+                        </article>
+                        <!-- <article id="position_select">
+                        </article> -->
+                    </div>
+                </aside>
+                <p class="lead d-none">World cup titles: <span id="worldcuptitles"></span></p>
+                <p class="lead d-none">All time scorer: <span id="alltimescorer"></span></p>
+            </div>
+        </div>
+        <main class="row justify-content-center py-5" id="mainContainer">
+            <!-- dynamic card players -->
+        </main>
+        <main class="pb-5">
+            <div class="ctr Brazil py-3 d-none">
+                <h2>Brazil</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><b>1958</b>: Pele, aged just 17, scored a brace in the final against Sweden in Brazil's first World Cup triumph.</li>
+                    <li class="list-group-item"><b>1962</b>: Amarildo, Zito and Vava were on the scoresheet as Brazil beat Czechoslovakia in the final.</li>
+                    <li class="list-group-item"><b>1970</b>: Pele again scored in the final with Brazil beating Italy 4-1.</li>
+                    <li class="list-group-item"><b>1994</b>: After the game ended goalless, Brazil beat Italy on penalties in the final, with Roberto Baggio missing the decisive spot-kick.</li>
+                    <li class="list-group-item"><b>2002</b>: Ronaldo scored twice as Brazil got the better of Germany in Japan</li>
+                </ul>
+            </div>
+            <div class="ctr Germany py-3 d-none">
+                <h2>Germany</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><b>1954</b>: Helmut Rahn got the winner for West Germany as they beat Hungary 3-2 in the final.</li>
+                    <li class="list-group-item"><b>1974</b>: Gerd Muller was the hero as West Germany won 2-1 against the Netherlands.</li>
+                    <li class="list-group-item"><b>1990</b>: A penalty from Andy Brehme saw West Germany beat Argentina 1-0.</li>
+                    <li class="list-group-item"><b>2014</b>: Mario Gotze hit the winner for Germany in the 113th minute of the final against Argentina to end a 24 year drought.</li>
+                </ul>
+            </div>
+            <div class="ctr Italy py-3 d-none">
+                <h2>Italy</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><b>1934</b>: Angelo Schiavio's goal saw Italy beat Czechoslovakia after extra time.</li>
+                    <li class="list-group-item"><b>1938</b>: Gino Colaussi and Silvio Piola both hit braces for Italy in their 4-2 win over Hungary.</li>
+                    <li class="list-group-item"><b>1982</b>: Italy beat West Germany 3-1 in the final as Paolo Rossi, Marco Tardelli and Alessandro Altobelli scored.</li>
+                    <li class="list-group-item"><b>2006</b>: Italy won on penalties, with Fabio Grosso the hero as Zinedine Zidane was sent off for France after headbutting Marco Materazzi.</li>
+                </ul>
+            </div>
+            <div class="ctr Argentina py-3 d-none">
+                <h2>Argentina</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><b>1978</b>: Mario Kempes scored twice for Argentina and Daniel Bertoni also netted in a 3-1 win against the Netherlands.</li>
+                    <li class="list-group-item"><b>1986</b>: Argentina beat West Germany 3-2 in an enthralling final as Jorge Burruchaga got the winner.</li>
+                    <li class="list-group-item"><b>2022</b>: Argentina had a 2-0 lead with 10 minutes left before Kylian Mbappe equalized and forced extra time. Then Lionel Messi and Mbappe exchanged goals in the extra session. But Argentina survived the penalty shootout to earn their third star.</li>
+                </ul>
+            </div>
+            <h3>FIFA World Cup</h3>
+            <p class="lead">Winning the FIFA World Cup remains one of the pinnacle achievements in any sport.</p>
+            <p class="lead">There have been a total of 22 editions of the tournament including Qatar 2022, with this year allowing a chance for Argentina to add a third star after beating France 4-2 on penalty kicks after a wild 3-3 draw.</p>
+            <p class="lead">The first edition was held back in 1930 and was won by the hosts, Uruguay. Thirteen teams took part in that tournament and it has since expanded to 32 teams, with the 2026 edition set to be contested by 48 nations</p>
+            <p class="lead">For most players, the opportunity to feature in the World Cup is seen as the highest point of their careers, and the competition has often been the stage for some of the most memorable moments in the game's history.</p>
+            <p class="lead">Even after Argentina won the 2022 tournament, Brazil are still the most successful nation in World Cup history and have won the famous trophy five times. Germany and Italy are not far behind, having won the competition on four occasions.</p>
+        </main>
+    </div>
+</body>
+</html>
